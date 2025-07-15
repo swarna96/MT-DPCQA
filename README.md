@@ -1,6 +1,7 @@
 # 🚀 MT-DPCQA: MT-DPCQA: A Multimodal Time-aware Learning Approach for No-Reference Dynamic Point Cloud Quality Assessment
 
 Official implementation of the paper "MT-DPCQA: A Multimodal Time-aware Learning Approach for No-Reference Dynamic Point Cloud Quality Assessment" accepted in ACM MM 2025
+![MT-DPCQA Architecture](./image/architecture4.png)
 
 ##  🧪 Environment ##
 Ubuntu 22.04.3 LTS 
