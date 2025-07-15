@@ -32,14 +32,20 @@ Install pytorch, openCV, open3D
 
 ## 🏋️‍♂️ How to Run the Code 
 **Generate projections:** 
-python generateProjections.py --input_dir  <path to the ply files> 
- --output_dir  <Path to store the projections> --interval 5 
+
+<pre><code>python generateProjections.py \
+  --input_dir &lt;path to the ply files> \
+  --output_dir &lt;path to store the projections> \
+  --interval 5 </code></pre>
+  
 
 **Generate Patches:** 
 
- 
 
-python generatePatches.py --input_dir  <path to the ply files> --output_dir  <Path to store the patches> 
+<pre><code> python generatePatches.py \
+ --input_dir  &lt;path to the ply files> \
+  --output_dir  &lt;Path to store the patches> \
+  </code></pre>
 
  
 
@@ -47,6 +53,6 @@ python generatePatches.py --input_dir  <path to the ply files> --output_dir  <Pa
 
 **Train:**
 
-python train.py  --root <path to your ply files> --projections_dir  <path to projection dir> --labels_file  path to the labels file --patch_dir <path to patches>  --train_csv <path to train csv> --test_csv  <path to test csv> --log_file  <path to log file> --checkpoint_path <path to the pointnet checkpoint> 
+<pre><code>python train.py  --root &lt;path to your ply files> --projections_dir  &lt;path to projection dir> --labels_file  &lt;path to the labels file> --patch_dir &lt;path to patches>  --train_csv &lt;path to train csv> --test_csv  &lt;path to test csv> --log_file  &lt;path to log file> --checkpoint_path &lt;path to the pointnet checkpoint> </code></pre>
 
 
