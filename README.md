@@ -1,6 +1,6 @@
 # 🚀 MT-DPCQA: MT-DPCQA: A Multimodal Time-aware Learning Approach for No-Reference Dynamic Point Cloud Quality Assessment
 
-Official implementation of the paper ["MT-DPCQA: A Multimodal Time-aware Learning Approach for No-Reference Dynamic Point Cloud Quality Assessment"](https://dl.acm.org/doi/10.1145/3746027.3754803) accepted in ACM MM 2025
+Official implementation of the paper ["MT-DPCQA: A Multimodal Time-aware Learning Approach for No-Reference Dynamic Point Cloud Quality Assessment"](https://dl.acm.org/doi/10.1145/3746027.3754803) published at ACM Multimedia 2025
 ![MT-DPCQA Architecture](./images/Architecture4.png)
 
 ##  🧪 Environment ##
