@@ -1,6 +1,6 @@
 # 🚀 MT-DPCQA: MT-DPCQA: A Multimodal Time-aware Learning Approach for No-Reference Dynamic Point Cloud Quality Assessment
 
-Official implementation of the paper "MT-DPCQA: A Multimodal Time-aware Learning Approach for No-Reference Dynamic Point Cloud Quality Assessment" accepted in ACM MM 2025
+Official implementation of the paper ["MT-DPCQA: A Multimodal Time-aware Learning Approach for No-Reference Dynamic Point Cloud Quality Assessment"](https://dl.acm.org/doi/10.1145/3746027.3754803) accepted in ACM MM 2025
 ![MT-DPCQA Architecture](./images/Architecture4.png)
 
 ##  🧪 Environment ##
@@ -55,4 +55,15 @@ Install pytorch, openCV, open3D
 
 <pre><code>python train.py  --root &lt;path to your ply files> --projections_dir  &lt;path to projection dir> --labels_file  &lt;path to the labels file> --patch_dir &lt;path to patches>  --train_csv &lt;path to train csv> --test_csv  &lt;path to test csv> --log_file  &lt;path to log file> --checkpoint_path &lt;path to the pointnet checkpoint> </code></pre>
 
+## Citation
+If you find our work useful, please consider citing our paper as:
+
+<pre><code> @inproceedings{chakraborty2025mt,
+  title={MT-DPCQA: A Multimodal Time-aware Learning Approach for No-Reference Dynamic Point Cloud Quality Assessment},
+  author={Chakraborty, Swarna and Farias, Mylene CQ},
+  booktitle={Proceedings of the 33rd ACM International Conference on Multimedia},
+  pages={7113--7122},
+  year={2025}
+}
+  </code></pre>
 
